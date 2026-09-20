@@ -1,0 +1,65 @@
+{
+  "maximum_clock_ratio_absolute_error": 0.07781129038825041,
+  "pair_groups": [
+    {
+      "condition": "baseline",
+      "direct_edge": false,
+      "n": 2267,
+      "mean": 68.00141797705274,
+      "ci95": [
+        65.07152497671,
+        70.93131097739548
+      ]
+    },
+    {
+      "condition": "baseline",
+      "direct_edge": true,
+      "n": 233,
+      "mean": 8.45256648822842,
+      "ci95": [
+        7.620207489169478,
+        9.284925487287362
+      ]
+    },
+    {
+      "condition": "lower amplitude",
+      "direct_edge": false,
+      "n": 2261,
+      "mean": 67.87178336982163,
+      "ci95": [
+        64.9388009388379,
+        70.80476580080536
+      ]
+    },
+    {
+      "condition": "lower amplitude",
+      "direct_edge": true,
+      "n": 239,
+      "mean": 8.092704082113608,
+      "ci95": [
+        7.312573908403052,
+        8.872834255824163
+      ]
+    },
+    {
+      "condition": "faster switching",
+      "direct_edge": false,
+      "n": 2261,
+      "mean": 66.41940355218082,
+      "ci95": [
+        63.51262691294429,
+        69.32618019141736
+      ]
+    },
+    {
+      "condition": "faster switching",
+      "direct_edge": true,
+      "n": 239,
+      "mean": 7.271240920647781,
+      "ci95": [
+        6.465733627947952,
+        8.07674821334761
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "config": {
+    "q": 3,
+    "trials": 5000,
+    "kMean": 118,
+    "deltaK": 0.7,
+    "s": 0.5,
+    "nu": 20,
+    "heterogeneity": 0.55,
+    "phase": 0,
+    "seed": 20261005,
+    "output": "research\\independent_node_q3.json",
+    "fullFixation": false,
+    "topology": "ring",
+    "design": "all"
+  },
+  "derived": {
+    "kEff": 60,
+    "sEff": 0.255
+  },
+  "equilibrium": [
+    0.2335422340801902,
+    0.2335422340801901,
+    0.5329155318396197
+  ],
+  "designs": {
+    "switching": {
+      "counts": [
+        1833,
+        2905,
+        262
+      ],
+      "probabilities": [
+        0.3666,
+        0.581,
+        0.0524
+      ],
+      "meanFirstExtinctionTime": 13.203320791581953,
+      "meanEvents": 1852.9092,
+      "stageCounts": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "stageProbabilities": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "meanStageAbsoluteTime": [
+        0,
+        0
+      ],
+      "meanStageResidenceTime": [
+        0,
+        0
+      ],
+      "seStageResidenceTime": [
+        0,
+        0
+      ],
+      "orderCounts": {},
+      "finalPairStats": {}
+    },
+    "static_naive": {
+      "counts": [
+        1910,
+        2947,
+        143
+      ],
+      "probabilities": [
+        0.382,
+        0.5894,
+        0.0286
+      ],
+      "meanFirstExtinctionTime": 26.51814120465648,
+      "meanEvents": 6209.427,
+      "stageCounts": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "stageProbabilities": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "meanStageAbsoluteTime": [
+        0,
+        0
+      ],
+      "meanStageResidenceTime": [
+        0,
+        0
+      ],
+      "seStageResidenceTime": [
+        0,
+        0
+      ],
+      "orderCounts": {},
+      "finalPairStats": {}
+    },
+    "static_effective_s": {
+      "counts": [
+        1838,
+        2889,
+        273
+      ],
+      "probabilities": [
+        0.3676,
+        0.5778,
+        0.0546
+      ],
+      "meanFirstExtinctionTime": 26.724550106121374,
+      "meanEvents": 6256.5212,
+      "stageCounts": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "stageProbabilities": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "meanStageAbsoluteTime": [
+        0,
+        0
+      ],
+      "meanStageResidenceTime": [
+        0,
+        0
+      ],
+      "seStageResidenceTime": [
+        0,
+        0
+      ],
+      "orderCounts": {},
+      "finalPairStats": {}
+    },
+    "static_effective_k": {
+      "counts": [
+        1869,
+        2873,
+        258
+      ],
+      "probabilities": [
+        0.3738,
+        0.5746,
+        0.0516
+      ],
+      "meanFirstExtinctionTime": 13.4737834646867,
+      "meanEvents": 1596.3532,
+      "stageCounts": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "stageProbabilities": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "meanStageAbsoluteTime": [
+        0,
+        0
+      ],
+      "meanStageResidenceTime": [
+        0,
+        0
+      ],
+      "seStageResidenceTime": [
+        0,
+        0
+      ],
+      "orderCounts": {},
+      "finalPairStats": {}
+    }
+  }
+}
