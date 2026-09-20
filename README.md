@@ -96,3 +96,7 @@ The resulting statistics are stored in `data/independent_implementation_validati
 Ruocun Ou  
 Nanyang Normal University  
 ouruocun@gmail.com
+
+## License
+
+MIT
