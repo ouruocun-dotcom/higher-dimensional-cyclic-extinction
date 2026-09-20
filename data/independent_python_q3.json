@@ -1,0 +1,88 @@
+{
+  "design": {
+    "q": [
+      "3"
+    ],
+    "trials": 600,
+    "bootstrap": 3000,
+    "k_mean": 118,
+    "delta_k": 0.7,
+    "s": 0.5,
+    "nu": 20.0,
+    "heterogeneity": 0.55,
+    "weight_phase": 0.0,
+    "seed": 20261005,
+    "output": "research\\independent_python_q3.json"
+  },
+  "derived": {
+    "k_minus": 35.400000000000006,
+    "k_plus": 200.6,
+    "k_effective_rounded": 60,
+    "s_effective": 0.255,
+    "preregistered_pilot_success": "For every q: median JS ratio < 0.5 and bootstrap P(effective closer) >= 0.95"
+  },
+  "results": [
+    {
+      "q": 3,
+      "equilibrium": [
+        0.23354223408019026,
+        0.23354223408019012,
+        0.5329155318396196
+      ],
+      "probabilities": {
+        "switching": [
+          0.3649210307564422,
+          0.5876974231088944,
+          0.04738154613466334
+        ],
+        "static_naive": [
+          0.41812136325852034,
+          0.5477971737323358,
+          0.03408146300914381
+        ],
+        "static_effective_s": [
+          0.38985868661679135,
+          0.5610972568578554,
+          0.049044056525353284
+        ],
+        "static_effective_k": [
+          0.38154613466334164,
+          0.5627597672485453,
+          0.05569409808811305
+        ]
+      },
+      "js_to_naive": 0.0018001965817282073,
+      "js_to_effective_s": 0.00036718114476238774,
+      "js_to_effective_k": 0.00039549857067799205,
+      "best_effective_control": "static_effective_s",
+      "distance_ratio": 0.20396724918224768,
+      "bootstrap": {
+        "ratio_ci_low": 0.01673546122936754,
+        "ratio_median": 0.40375769086707014,
+        "ratio_ci_high": 4.886473868315628,
+        "difference_ci_low": -0.0018790798013856354,
+        "difference_median": 0.001261601075052559,
+        "difference_ci_high": 0.005724120285584101,
+        "prob_effective_closer": 0.7966666666666666
+      },
+      "diagnostics": {
+        "switching": {
+          "mean_first_extinction_time": 13.467432382341938,
+          "mean_events": 1887.3683333333333
+        },
+        "static_naive": {
+          "mean_first_extinction_time": 25.608652819426116,
+          "mean_events": 6009.205
+        },
+        "static_effective_s": {
+          "mean_first_extinction_time": 26.49094396952501,
+          "mean_events": 6214.796666666667
+        },
+        "static_effective_k": {
+          "mean_first_extinction_time": 12.1933092038882,
+          "mean_events": 1433.9566666666667
+        }
+      }
+    }
+  ]
+}
